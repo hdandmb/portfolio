@@ -1,0 +1,120 @@
+#parallax {
+  /* background image for parallax effect */
+  background-image: url("https://static.pexels.com/photos/167964/pexels-photo-167964.jpeg");
+  /* parallax image specific height */
+  height: 700px;
+  /*parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*original nav class for navbar*/
+.original-nav {
+ 
+}
+/*replacement class for sitcky navbar*/
+.n_select_nav {
+  position:fixed;  
+  width: 100%;
+  top: 0px;
+  background: black;
+  color: white;
+  z-index:9999;
+}
+/* fonts for headers*/
+h1 {
+  font-family: 'Zilla Slab', serif;
+  border-bottom-style: outset;
+}
+/* fonts for paragraphs */
+nav,
+p {
+  font-family: 'Bellefair', serif;
+  font-size: 125%;
+}
+.nav {
+  padding: 0px;
+}
+.nav li a {
+  color: darkgrey;
+}
+
+/* padding and section height*/
+#about-me {
+  padding-top:130px;
+  height: 900px;
+}
+
+#image-about{
+  padding: 39px 50px;
+  margin: -48px 0px 0px -35px;
+}
+
+/* tech section*/
+/* container that surrounds the entire tech
+section and makes the height*/
+#tech-container {
+  height: 700px;
+}
+/* setting for the header of the tech section
+lowers and indents text and uses width to clip border for effect */
+.tech-heading {
+  margin: 5px;
+  padding: 50px 15px 50px 15px;
+  position: relative;
+  top: 50px;
+  width: 50px;
+}
+/* outer container that encloses tech sections images*/
+#container-for-tech {
+  width: 75%;
+  position: relative;
+  top: 50px;
+}
+/* images in tech section*/
+.tech-img {
+  top: 50px;
+  text-align: center;
+}
+
+#portfolio-section {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;  
+  list-style: none;
+
+}
+
+/* padding  and alignment for all paragraphs centers text and indents*/
+.p-padding {
+  padding: 20px;
+  text-align: center;
+  color: darkgray;
+}
+/*background  and height of contact section makes text white and background black */
+#background-contact {
+  background-color: #000;
+  color: darkgray;
+  height: 600px;
+}
+/*container of the contact sections social media photos sizes them*/
+#social-media-container {
+  width: 25%;
+  position: relative;
+  top: 10px;
+}
+/* positions images of the contact sections social media */
+.social-media-img {
+  position: relative;
+  right: 50px;
+}
